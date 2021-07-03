@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="72591" started-at="2021-07-03T11:19:59Z" finished-at="2021-07-03T11:21:12Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="72591" started-at="2021-07-03T11:19:59Z" finished-at="2021-07-03T11:21:12Z">
+      <class name="mavenpractice.tablecount">
+        <test-method status="PASS" signature="initial()[pri:0, instance:mavenpractice.tablecount@a097cc]" name="initial" is-config="true" duration-ms="23881" started-at="2021-07-03T04:19:59Z" finished-at="2021-07-03T04:20:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initial -->
+        <test-method status="PASS" signature="login()[pri:0, instance:mavenpractice.tablecount@a097cc]" name="login" duration-ms="46929" started-at="2021-07-03T04:20:23Z" finished-at="2021-07-03T04:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="end()[pri:0, instance:mavenpractice.tablecount@a097cc]" name="end" is-config="true" duration-ms="1684" started-at="2021-07-03T04:21:10Z" finished-at="2021-07-03T04:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- mavenpractice.tablecount -->
+      <class name="mavenpractice.seleniumTest">
+        <test-method status="PASS" signature="browser()[pri:0, instance:mavenpractice.seleniumTest@1551a94]" name="browser" duration-ms="0" started-at="2021-07-03T04:21:10Z" finished-at="2021-07-03T04:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:mavenpractice.seleniumTest@1551a94]" name="login" duration-ms="1" started-at="2021-07-03T04:21:10Z" finished-at="2021-07-03T04:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- mavenpractice.seleniumTest -->
+      <class name="mavenpractice.RestTest">
+        <test-method status="PASS" signature="jira()[pri:0, instance:mavenpractice.RestTest@61f5df]" name="jira" duration-ms="1" started-at="2021-07-03T04:20:23Z" finished-at="2021-07-03T04:20:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jira -->
+        <test-method status="PASS" signature="work()[pri:0, instance:mavenpractice.RestTest@61f5df]" name="work" duration-ms="0" started-at="2021-07-03T04:20:23Z" finished-at="2021-07-03T04:20:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- work -->
+      </class> <!-- mavenpractice.RestTest -->
+      <class name="mavenpractice.AppiumTest">
+        <test-method status="PASS" signature="logout()[pri:0, instance:mavenpractice.AppiumTest@f6e879]" name="logout" duration-ms="2" started-at="2021-07-03T04:20:23Z" finished-at="2021-07-03T04:20:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="mobilelogin()[pri:0, instance:mavenpractice.AppiumTest@f6e879]" name="mobilelogin" duration-ms="1" started-at="2021-07-03T04:20:23Z" finished-at="2021-07-03T04:20:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilelogin -->
+      </class> <!-- mavenpractice.AppiumTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
